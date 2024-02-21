@@ -7,48 +7,53 @@
     box-sizing: border-box;
 }
 body{
-    background: #212121 ;
+    background: #212121;
+    height: 100vh;
     font-family: "oswald";
-    
 }
+/*PERFIL*/
+.perfil h1{
+    letter-spacing: 1px;
+    color: white;
+}
+
+.perfil span{
+    color:white;
+}
+
+#fecha{
+    padding: 50px 0 5px 0;
+    color: white;
+}
+
+
+/*agregar tarea*/
+
+.agregar-tarea{
+    background-color: white;
+    border-radius: 15px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 70px;
+}
+
+.agregar-tarea input{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: none;
+    background-color: white;
+}
+.agregar-tarea i{
+    font-size: 40px;
+}
+
+
 /*celular*/
 @media screen and (max-width: 480px) {
-    .box{
-        margin-top: 30%;
-        text-align: center;
-        background-color: white;
-        width: 90%;
-        margin-left: 5%;
-        border-radius: 10px;
-        padding:5%;
-        
-    } 
-    h5{
-        margin-top: 5%;
-        color:rgba(0,0,0,0.5);
-        border:solid black 2px;
-        padding: 2%;
-        width: 60%;
-        margin-left: 22%;
-        text-align: left;
-        border-radius: 10px;
-    }
-    button{
-        width: 15%;
-        position:absolute;
-        left: 59%;
-        top: 28.5%;
-        background-color: #212121;
-        color: white;
-        border-radius: 10px;
-    }
-    ul{
-        text-align: left;
-        margin-left: 30%;
-        margin-top:5%;
-        border:solid black 1px;
-    }
-   
+  
 
 }
 /*tablet*/
