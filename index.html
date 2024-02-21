@@ -1,42 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/styles.css" />
-    <script src="https://kit.fontawesome.com/7bf3e72de9.js" crossorigin="anonymous"></script>
-    <title>To do list</title>
-  </head>
-
-
-  <body>
-    <div class="container">
-
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APP TO DO LIST</title> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    
+<div class="container">
     <div class="perfil">
-        <div id="fecha">22 de Febrero del 2024</div>
-        <h1>Hola, Como estas?</h1>
-        <span>Cumple tus metas!!</span>
+        <div id="fecha"></div>
+        <h1>Hola, como estas? </h1>
+        <span>Que no se te olviden tus que haceres!!</span>
     </div>
 
     <div class="agregar-tarea">
-      <input type="text" id="input" placeholder="agregar una tarea">
-      <i id="enter" class="fa-solid fa-circle-plus"></i>
+        <input type="text" id="input" placeholder="agregar una tarea">
+        <i id="boton-enter"class="fas fa-plus-circle"></i>
     </div>
 
+    
     <div class="seccion-tarea">
-      <h3>Tareas pendientes</h3>
-      <ul id="lista">
-        <li>
-          <i class="far fa-circle co" id="realizado" id="0"></i>
-          <p class="text">tarea</p>
-          <i class="fas fa-trash de" data="eliminado" id="0"></i>
-        </li>
-      </ul>
-    </div>
-      
-    </div>
-    </div>
-
-    <script src="./scripts/script.js"></script>
-  </body>
+        <h3>Estas son tus Tareas Pendientes </h3>
+        <ul id="lista">
+            <!-- <li id="elemento">
+                <i class="far fa-circle co" data="realizado" id="0"></i>
+                <p class="text"> tarea 1</p>
+                <i class="fas fa-trash de" data="eliminado" id="0"></i> 
+            </li>
+            <li id="elemento">
+                <i class="far fa-circle co" data="realizado" id="0"></i>
+                <p class="text"> tarea 2 </p>
+                <i class="fas fa-trash de" data="eliminado" id="0"></i> 
+            </li> -->
+        </ul>
+    </div>   
+</div>
+<script src="./scripts/script.js"></script>
+</body>
 </html>
