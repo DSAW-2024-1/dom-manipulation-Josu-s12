@@ -4,19 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/styles.css" />
-    <title>Something to do?</title>
+    <script src="https://kit.fontawesome.com/7bf3e72de9.js" crossorigin="anonymous"></script>
+    <title>To do list</title>
   </head>
+
+
   <body>
-    <div class="box">
-      <h2>To do list</h2>
-      <h5>Agregue un deber</h5>
-      <button>Add</button>
-      <ul>
-        <li>deber</li>
+    <div class="container">
+
+    <div class="perfil">
+        <div id="fecha">22 de Febrero del 2024</div>
+        <h1>Hola, Como estas?</h1>
+        <span>Cumple tus metas!!</span>
+    </div>
+
+    <div class="agregar-tarea">
+      <input type="text" id="input" placeholder="agregar una tarea">
+      <i id="enter" class="fa-solid fa-circle-plus"></i>
+    </div>
+
+    <div class="seccion-tarea">
+      <h3>Tareas pendientes</h3>
+      <ul id="lista">
+        <li>
+          <i class="far fa-circle co" id="realizado" id="0"></i>
+          <p class="text">tarea</p>
+          <i class="fas fa-trash de" data="eliminado" id="0"></i>
+        </li>
       </ul>
     </div>
-    <script src="scripts/script.js"></script>
-    
+      
     </div>
+    </div>
+
+    <script src="./scripts/script.js"></script>
   </body>
 </html>
